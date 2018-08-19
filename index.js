@@ -115,6 +115,10 @@ function buildAPI(globalOptions, html, jar) {
     "getThreadListDeprecated",
     'getThreadHistoryDeprecated',
     'getThreadInfoDeprecated',
+
+    //custom api
+    'sendFriendRequest',
+    'cancelFriendRequest',
   ];
 
   var defaultFuncs = utils.makeDefaults(html, userID, ctx);
